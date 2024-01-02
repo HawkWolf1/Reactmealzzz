@@ -1,0 +1,41 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.cart-item h2 {
+  margin: 0;
+}
+
+.summary {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.amount {
+  color: #888;
+}
+
+.action {
+  cursor: pointer;
+  background-color: #e46820;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 0.5rem; 
+}
+
+.action:hover {
+  background-color: #d35400;
+}

@@ -1,0 +1,31 @@
+.header {
+  background-color: #e46820;
+  color: rgb(243, 243, 243);
+  text-align: left;
+  padding: 0px;
+  z-index: 0;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+.title {
+  margin-left: 10px;
+}
+
+body {
+  background-color: #eebd36; 
+}
+
+.image {
+  width: 1700px;
+  height: 400px; 
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  z-index: 0;
+}
